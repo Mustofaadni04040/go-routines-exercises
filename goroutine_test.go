@@ -28,3 +28,5 @@ func TestManyGoroutine(t *testing.T) {
 
 	time.Sleep(5 * time.Second)
 }
+
+// channel
