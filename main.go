@@ -13,7 +13,7 @@ func task1() {
 }
 
 func task2() {
-	for i := 0; i < 5; i++ {
+	for i := range 5 {
 		fmt.Println("task2:", i)
 		time.Sleep(300 * time.Millisecond)
 	}
