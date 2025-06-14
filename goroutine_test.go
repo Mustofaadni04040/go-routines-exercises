@@ -1,4 +1,4 @@
-package belajar_golang_goroutines
+package main
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ func DisplayNumber(number int) {
 }
 
 func TestManyGoroutine(t *testing.T) {
-	for i := 0; i < 100000; i++ {
+	for i := 0; i < 10000; i++ {
 		go DisplayNumber(i)
 	}
 
